@@ -1,0 +1,17 @@
+body {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    max-width: 600px;
+    margin: 10px auto;
+    background-color: white;
+}
+
+p {
+    line-height: 1.7rem;
+}
+article {
+    margin: 30px;
+    padding: 30px;
+}
+article + article {
+    border-top: solid 2px lightslategray;
+}
